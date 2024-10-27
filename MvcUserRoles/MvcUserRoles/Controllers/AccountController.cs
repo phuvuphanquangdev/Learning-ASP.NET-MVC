@@ -155,7 +155,7 @@ namespace MvcUserRoles.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, FatherName = model.FatherName};
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

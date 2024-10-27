@@ -36,8 +36,9 @@ namespace MvcUserRoles
                 //Here we create a Admin super user who will maintain the website                  
 
                 var user = new ApplicationUser();
-                user.UserName = "robinhaider";
+                user.UserName = "RobinHaider";
                 user.Email = "robinhaider69@gmail.com";
+                user.FatherName = "Jashim Uddin";
 
                 string userPWD = "12345678";
 
@@ -58,6 +59,22 @@ namespace MvcUserRoles
                 role.Name = "Manager";
                 roleManager.Create(role);
 
+                //Now we create a User who will be a Manager
+                var user = new ApplicationUser();
+                user.UserName = "Raheel";
+                user.Email = "raheel@gmail.com";
+                user.FatherName = "Mubarok";
+
+                string userPass = "87654321";
+
+                var chekUser = UserManager.Create(user, userPass);
+
+                //Add this user as a Manager...
+                if (chekUser.Succeeded)
+                {
+                    var result2 = UserManager.AddToRole(user.Id, "Manager");
+                }
+
             }
 
             // creating Creating Employee role    
@@ -67,6 +84,21 @@ namespace MvcUserRoles
                 role.Name = "Employee";
                 roleManager.Create(role);
 
+                //Now we create a User Who will be an Employee..
+                var user = new ApplicationUser();
+                user.UserName = "Saikat";
+                user.Email = "saikat@gmail.com";
+                user.FatherName = "Sahab Uddin";
+
+                string userPass = "23456789";
+
+                var chekUser = UserManager.Create(user, userPass);
+
+                //Add this user as a Manager...
+                if (chekUser.Succeeded)
+                {
+                    var result3 = UserManager.AddToRole(user.Id, "Employee");
+                }
             }
         }
     }

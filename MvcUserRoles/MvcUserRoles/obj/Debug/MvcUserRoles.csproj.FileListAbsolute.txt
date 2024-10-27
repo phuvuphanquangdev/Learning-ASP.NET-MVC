@@ -103,3 +103,6 @@ C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\Mv
 C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.dll
 C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.pdb
+C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.InitialCreate.resources
+C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\Learning MVC\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.migr2.resources

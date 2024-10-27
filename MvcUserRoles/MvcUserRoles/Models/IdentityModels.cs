@@ -16,6 +16,8 @@ namespace MvcUserRoles.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string FatherName { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
