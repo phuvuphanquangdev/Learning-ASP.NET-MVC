@@ -78,3 +78,7 @@ C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bi
 C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
 C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
 C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
