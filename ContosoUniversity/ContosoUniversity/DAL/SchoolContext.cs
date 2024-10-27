@@ -12,7 +12,7 @@ namespace ContosoUniversity.DAL
     {
         public SchoolContext() : base("SchoolContext")
         {
-
+            //this.Configuration.LazyLoadingEnabled = false;
         }
 
         public DbSet<Student> Students { get; set; }
