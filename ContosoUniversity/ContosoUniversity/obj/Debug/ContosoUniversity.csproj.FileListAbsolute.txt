@@ -82,3 +82,5 @@ C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bi
 C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
 C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
 C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\Lenovo\source\repos\Learning MVC\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
